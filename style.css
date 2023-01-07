@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.btn {
+  width: 160px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f15b22;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* header section */
+.header {
+  width: 100%;
+  min-height: 800px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.headerImg {
+  width: 100%;
+  height: 800px;
+}
+
+.headerText {
+  position: absolute;
+  right: 10em;
+  width: 700px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  gap: 1em;
+}
+
+.headerText h1 {
+  width: 80%;
+  font-family: Work Sans;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.headerText p {
+  font-family: Work Sans;
+  width: 80%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+/* main area section */
+
+.mainArea {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mainText {
+  width: 416px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.mainText ul {
+  list-style-position: inside;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5em;
+}
+
+.plansArea {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+
+.plansItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 5em;
+}
+/* motivation area */
+.motivationArea {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.motivationContainer {
+  position: relative;
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.motivationImg {
+  width: 100%;
+  height: 300px;
+}
+
+.motivationGradient {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 300px;
+  z-index: 2;
+}
+
+.motivationText {
+  position: absolute;
+  left: 4em;
+  z-index: 3;
+}
+
+.motivationArea button {
+  background-color: aliceblue;
+  color: orange;
+  margin-top: 2em;
+}
+
+
+/* footer section */
+
+.footer{
+  background: #151414;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  
+}
+
+.futureArea{
+  color: #F8F8F8;
+  margin-top: 2em;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footerHeading,.footerDescription,.email,.phone{
+  margin-top: 1em;
+}
+.distance{
+  margin-left:1em;
+}
+
+.social{
+display: flex;
+align-items: center;
+margin-top: 1rem;
+margin-bottom: 3rem;
+
+
+}
+
+.socialItem{
+  list-style: none;
+}
+
+.subscribeArea{
+  color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+
+}
+.subscribeHeading{
+  font-weight: 600;
+font-size: 25px;
+margin-bottom: 1em;
+}
+
+#email{
+  background: #151414;
+  width: 250px;
+  height: 35px;
+  border: 1px solid #f8f8f8;
+  border-radius: 3px;
+  margin-bottom: 1em;
+  text-align: justify;
+  padding: 5px;
+}
+
+.subscribeBtn{
+  background-color: aliceblue;
+  font-weight: 600;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  color: orange;
+}
